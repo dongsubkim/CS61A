@@ -1,0 +1,21 @@
+{
+    "name": "Vitamin 3",
+    "endpoint": "cal/cs61a/fa16/vitamin03",
+    "src": [
+        "vitamin03.py"
+    ],
+    "tests": {
+        "vitamin03.py":  "doctest"
+    },
+    "default_tests": [
+        "has_seven",
+        "summation"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "grading",
+        "analytics",
+        "backup"
+    ]
+}
